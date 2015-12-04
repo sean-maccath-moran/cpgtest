@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CPGTest feature.
+ */
+
+include_once 'cpgtest.features.inc';

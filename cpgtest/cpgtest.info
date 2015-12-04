@@ -1,0 +1,11 @@
+name = CPGTest
+description = A minor test of Drupal skills.
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = panels
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = cpgtest
+features_exclude[dependencies][ctools] = ctools
